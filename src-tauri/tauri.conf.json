@@ -12,7 +12,8 @@
       {
         "title": "LAPLACE'S DEMON",
         "width": 1280,
-        "height": 768
+        "height": 768,
+        "devtools": false        
       }
     ],
     "security": {

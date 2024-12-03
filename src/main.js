@@ -13,8 +13,23 @@ const toggleFullscreen = async () => {
 };
 
 // Change the keybind to your preferred
+
 window.addEventListener("keydown", (event) => {
   if (event.key === "F4") {
     toggleFullscreen();
+  }
+});
+
+// Disables the refreshing page function (F5) on all platforms
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "F5") {
+    event.preventDefault();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "F5" || (event.key === "r" && (event.ctrlKey || event.metaKey))) {
+    event.preventDefault();
   }
 });
