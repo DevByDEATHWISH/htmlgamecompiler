@@ -68,11 +68,3 @@ Follow these steps to start using HTMLGAMECOMPILER:
    ```
 
 ---
-
-## File Structure
-
-```plaintext
-htmlgamecompiler/
-└── src/
-   └── game/             # Place your HTML, CSS, and JS files here
-```
