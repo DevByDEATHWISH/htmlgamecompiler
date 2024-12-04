@@ -43,7 +43,7 @@ Follow these steps to start using HTMLGAMECOMPILER:
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/DevByDEATHWISH/htmlgamecompiler.git
+   git clone https://github.com/DevByDEATHWISH/htmlgamecompiler
    cd htmlgamecompiler
    ```
 
